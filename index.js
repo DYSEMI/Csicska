@@ -25,7 +25,7 @@ client.on("ready", () => {
 
 
 client.on("message", async(message) => {
-/*
+
     const channel = message.channel
     const members = channel.members
     if (message.content.startsWith("!kuss")) {
@@ -41,7 +41,7 @@ client.on("message", async(message) => {
         });
         await message.channel.send('mindeki kikussolva!');
     }
-*/
+
     //-----------------------
     
     const botinteraction = client.channels.cache.find(channel => channel.id === "983803092376117248");
@@ -158,4 +158,4 @@ client.on("message", async(message) => {
 
 console.log("</>");
 
-client.login("OTc1Mzk4MTE0OTg0ODg2Mjkz.GZQ8Wl.3LoeRCRng93z0kN6AkOPuniBXW5hr0n0duOeGA");
+//client.login("OTc1Mzk4MTE0OTg0ODg2Mjkz.Gnxg9D.5lrfl9rvp2c7Ren99Ra8hyGjjaUOBJ9AMxmAYY");

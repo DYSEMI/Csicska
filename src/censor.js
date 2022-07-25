@@ -8,7 +8,6 @@ module.exports = (client) => {
         let bot_commands = [
             '/', '!', '*', '_'
         ]
-        let ido = new Date();
 
         //974729743075274753 - dc parancsok chat ID  
         // kefudio id : 535189980503343114
